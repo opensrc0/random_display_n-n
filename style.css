@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 10%;
+    width: 100%;
+    background: green;
+    color: white;
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-item {
+    background-color: gray;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#startGame {
+    margin: 10px;
+}
+
+#topCard {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+#bottomCard {
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+#userInfo {
+    margin-top: 100px;
+    text-align: center;
+    margin: 100px;
+}
+
+#card {
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
